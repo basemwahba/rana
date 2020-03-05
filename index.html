@@ -1,10 +1,12 @@
 ---
 layout: default
 title: anything
+name: ghfkghfjg
+url: fjshfkshdjfk
 ---
 
 <form method="POST" action="{{ site.staticman.api }}">
-  <input name="options[redirect]" type="hidden" value="{{ site.url.page.name }}">
+  <input name="options[redirect]" type="hidden" value="{{ page.name }}">
   <input name="options[slug]" type="hidden" value="{{ page.title }}">
   <label>Name: <input name="fields[name]" type="text"></label><br>
   <label>Email: <input name="fields[email]" type="email"></label><br>
