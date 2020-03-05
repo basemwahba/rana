@@ -3,4 +3,4 @@ title: Minimal Staticman v3 Demo
 
 staticman:
   api: "https://anasbasem.herokuapp.com/v2/entry/basemwahba/anas/master/comments"
-  path: "_data/comments/test-slug"
+  path: "_data/comments"
